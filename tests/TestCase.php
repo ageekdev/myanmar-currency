@@ -2,9 +2,9 @@
 
 namespace AgeekDev\MyanmarCurrency\Tests;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
 use AgeekDev\MyanmarCurrency\MyanmarCurrency;
 use AgeekDev\MyanmarCurrency\MyanmarCurrencyServiceProvider;
+use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra

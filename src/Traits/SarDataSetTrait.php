@@ -40,7 +40,6 @@ trait SarDataSetTrait
     public function twoDigitNumber($x): string
     {
         $twoDigitNumber = [
-            '1' => 'ကျပ်',
             '0' => 'ဆယ်',
         ];
 
@@ -50,7 +49,6 @@ trait SarDataSetTrait
     public function twoDigitNumbers($x): string
     {
         $twoDigitNumberWithOf = [
-            '1' => 'ကျပ်',
             '0' => 'ဆယ့်',
         ];
 
@@ -60,7 +58,6 @@ trait SarDataSetTrait
     protected function threeDigitNumber($x): string
     {
         $threeDigitNumber = [
-            '2' => 'ကျပ်',
             '1' => 'ဆယ်',
             '0' => 'ရာ',
         ];
@@ -71,7 +68,6 @@ trait SarDataSetTrait
     protected function threeDigitNumbers($x): string
     {
         $threeDigitNumberWithOf = [
-            '2' => 'ကျပ်',
             '1' => 'ဆယ့်',
             '0' => 'ရာ',
         ];
@@ -82,7 +78,6 @@ trait SarDataSetTrait
     protected function fourDigitNumber($x): string
     {
         $fourDigitNumber = [
-            '3' => 'ကျပ်',
             '2' => 'ဆယ်',
             '1' => 'ရာ',
             '0' => 'ထောင်',
@@ -94,7 +89,6 @@ trait SarDataSetTrait
     protected function fourDigitNumbers($x): string
     {
         $fourDigitNumberWithOf = [
-            '3' => 'ကျပ်',
             '2' => 'ဆယ့်',
             '1' => 'ရာ့',
             '0' => 'ထောင့်',
@@ -106,7 +100,6 @@ trait SarDataSetTrait
     protected function fiveDigitNumber($x): string
     {
         $fiveDigitNumber = [
-            '4' => 'ကျပ်',
             '3' => 'ဆယ်',
             '2' => 'ရာ',
             '1' => 'ထောင်',
@@ -119,7 +112,6 @@ trait SarDataSetTrait
     protected function fiveDigitNumbers($x): string
     {
         $fiveDigitNumberWithOf = [
-            '4' => 'ကျပ်',
             '3' => 'ဆယ်',
             '2' => 'ရာ့',
             '1' => 'ထောင့်',
@@ -132,7 +124,6 @@ trait SarDataSetTrait
     protected function sixDigitNumber($x): string
     {
         $sixDigitNumber = [
-            '5' => 'ကျပ်',
             '4' => 'ဆယ်',
             '3' => 'ရာ',
             '2' => 'ထောင်',
@@ -146,7 +137,6 @@ trait SarDataSetTrait
     protected function sixDigitNumbers($x): string
     {
         $sixDigitNumberWithOf = [
-            '5' => 'ကျပ်',
             '4' => 'ဆယ့်',
             '3' => 'ရာ့',
             '2' => 'ထောင့်',
@@ -160,7 +150,6 @@ trait SarDataSetTrait
     protected function sevenDigitNumber($x): string
     {
         $sevenDigitNumber = [
-            '6' => 'ကျပ်',
             '5' => 'ဆယ်',
             '4' => 'ရာ',
             '3' => 'ထောင်',
@@ -175,7 +164,6 @@ trait SarDataSetTrait
     protected function sevenDigitNumbers($x): string
     {
         $sevenDigitNumberWithOf = [
-            '6' => 'ကျပ်',
             '5' => 'ဆယ့်',
             '4' => 'ရာ့',
             '3' => 'ထောင့်',
@@ -190,7 +178,6 @@ trait SarDataSetTrait
     protected function eightDigitNumber($x): string
     {
         $eightDigitNumber = [
-            '7' => 'ကျပ်',
             '6' => 'ဆယ်',
             '5' => 'ရာ',
             '4' => 'ထောင်',
@@ -206,7 +193,6 @@ trait SarDataSetTrait
     protected function eightDigitNumbers($x): string
     {
         $eightDigitNumberWithOf = [
-            '7' => 'ကျပ်',
             '6' => 'ဆယ့်',
             '5' => 'ရာ့',
             '4' => 'ထောင်',
@@ -222,7 +208,6 @@ trait SarDataSetTrait
     protected function nineDigitNumber($x): string
     {
         $nineDigitNumber = [
-            '8' => 'ကျပ်',
             '7' => 'ဆယ် ',
             '6' => 'ရာ ',
             '5' => 'ထောင်',
@@ -239,7 +224,6 @@ trait SarDataSetTrait
     protected function nineDigitNumbers($x): string
     {
         $nineDigitNumberWithOf = [
-            '8' => 'ကျပ်',
             '7' => 'ဆယ့် ',
             '6' => 'ရာ့',
             '5' => 'ထောင့်',
@@ -256,7 +240,6 @@ trait SarDataSetTrait
     protected function tenDigitNumber($x): string
     {
         $tenDigitNumber = [
-            '9' => 'ကျပ်',
             '8' => 'ဆယ်',
             '7' => 'ရာ',
             '6' => 'ထောင်',
@@ -274,7 +257,6 @@ trait SarDataSetTrait
     protected function tenDigitNumbers($x): string
     {
         $tenDigitNumberWithOf = [
-            '9' => 'ကျပ်',
             '8' => 'ဆယ့်',
             '7' => 'ရာ့',
             '6' => 'ထောင့်',

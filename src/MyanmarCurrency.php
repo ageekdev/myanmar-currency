@@ -16,8 +16,8 @@ class MyanmarCurrency
 
         $wordCount = strlen($number);
 
-        if ($wordCount == 7 && preg_match("/^1[0 :-]++$/", $number)) {
-            return "ဆယ်သိန်း";
+        if ($wordCount == 7 && preg_match('/^1[0 :-]++$/', $number)) {
+            return 'ဆယ်သိန်း';
         }
 
         if ($wordCount >= 11) {

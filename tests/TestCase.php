@@ -16,7 +16,7 @@ class TestCase extends Orchestra
         parent::setUp();
         $this->currency = new MyanmarCurrency();
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'MyanmarCurrency\\MyanmarCurrency\\Database\\Factories\\' . class_basename($modelName) . 'Factory'
+            fn (string $modelName) => 'MyanmarCurrency\\MyanmarCurrency\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 

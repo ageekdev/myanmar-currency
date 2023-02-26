@@ -15,6 +15,7 @@ trait SarDataSetTrait
         '8' => 'ရှစ်',
         '9' => 'ကိုး',
     ];
+
     protected array $methodsNames = [
         '2' => ['twoDigitNumber', 'twoDigitNumbers'],
         '3' => ['threeDigitNumber', 'threeDigitNumbers'],
@@ -29,12 +30,12 @@ trait SarDataSetTrait
 
     public function methodNamesHelper($count)
     {
-        return $this->methodsNames[$count] ?? "";
+        return $this->methodsNames[$count] ?? '';
     }
 
     protected function myanmarNumber($index): string
     {
-        return $this->myanmarNumber[$index] ?? "";
+        return $this->myanmarNumber[$index] ?? '';
     }
 
     public function twoDigitNumber($x): string
@@ -43,7 +44,7 @@ trait SarDataSetTrait
             '0' => 'ဆယ်',
         ];
 
-        return $twoDigitNumber[$x] ?? "";
+        return $twoDigitNumber[$x] ?? '';
     }
 
     public function twoDigitNumbers($x): string
@@ -52,7 +53,7 @@ trait SarDataSetTrait
             '0' => 'ဆယ့်',
         ];
 
-        return $twoDigitNumberWithOf[$x] ?? "";
+        return $twoDigitNumberWithOf[$x] ?? '';
     }
 
     protected function threeDigitNumber($x): string
@@ -62,7 +63,7 @@ trait SarDataSetTrait
             '0' => 'ရာ',
         ];
 
-        return $threeDigitNumber[$x] ?? "";
+        return $threeDigitNumber[$x] ?? '';
     }
 
     protected function threeDigitNumbers($x): string
@@ -72,7 +73,7 @@ trait SarDataSetTrait
             '0' => 'ရာ',
         ];
 
-        return $threeDigitNumberWithOf[$x] ?? "";
+        return $threeDigitNumberWithOf[$x] ?? '';
     }
 
     protected function fourDigitNumber($x): string
@@ -83,7 +84,7 @@ trait SarDataSetTrait
             '0' => 'ထောင်',
         ];
 
-        return $fourDigitNumber[$x] ?? "";
+        return $fourDigitNumber[$x] ?? '';
     }
 
     protected function fourDigitNumbers($x): string
@@ -94,7 +95,7 @@ trait SarDataSetTrait
             '0' => 'ထောင့်',
         ];
 
-        return $fourDigitNumberWithOf[$x] ?? "";
+        return $fourDigitNumberWithOf[$x] ?? '';
     }
 
     protected function fiveDigitNumber($x): string
@@ -106,7 +107,7 @@ trait SarDataSetTrait
             '0' => 'သောင်း',
         ];
 
-        return $fiveDigitNumber[$x] ?? "";
+        return $fiveDigitNumber[$x] ?? '';
     }
 
     protected function fiveDigitNumbers($x): string
@@ -118,7 +119,7 @@ trait SarDataSetTrait
             '0' => 'သောင်း',
         ];
 
-        return $fiveDigitNumberWithOf[$x] ?? "";
+        return $fiveDigitNumberWithOf[$x] ?? '';
     }
 
     protected function sixDigitNumber($x): string
@@ -131,7 +132,7 @@ trait SarDataSetTrait
             '0' => 'သိန်း',
         ];
 
-        return $sixDigitNumber[$x] ?? "";
+        return $sixDigitNumber[$x] ?? '';
     }
 
     protected function sixDigitNumbers($x): string
@@ -144,7 +145,7 @@ trait SarDataSetTrait
             '0' => 'သိန်း',
         ];
 
-        return $sixDigitNumberWithOf[$x] ?? "";
+        return $sixDigitNumberWithOf[$x] ?? '';
     }
 
     protected function sevenDigitNumber($x): string
@@ -158,7 +159,7 @@ trait SarDataSetTrait
             '0' => 'ဆယ်',
         ];
 
-        return $sevenDigitNumber[$x] ?? "";
+        return $sevenDigitNumber[$x] ?? '';
     }
 
     protected function sevenDigitNumbers($x): string
@@ -172,7 +173,7 @@ trait SarDataSetTrait
             '0' => 'ဆယ့်',
         ];
 
-        return $sevenDigitNumberWithOf[$x] ?? "";
+        return $sevenDigitNumberWithOf[$x] ?? '';
     }
 
     protected function eightDigitNumber($x): string
@@ -187,7 +188,7 @@ trait SarDataSetTrait
             '0' => 'ရာ',
         ];
 
-        return $eightDigitNumber[$x] ?? "";
+        return $eightDigitNumber[$x] ?? '';
     }
 
     protected function eightDigitNumbers($x): string
@@ -202,7 +203,7 @@ trait SarDataSetTrait
             '0' => 'ရာ့',
         ];
 
-        return $eightDigitNumberWithOf[$x] ?? "";
+        return $eightDigitNumberWithOf[$x] ?? '';
     }
 
     protected function nineDigitNumber($x): string
@@ -218,7 +219,7 @@ trait SarDataSetTrait
             '0' => 'ထောင်',
         ];
 
-        return $nineDigitNumber[$x] ?? "";
+        return $nineDigitNumber[$x] ?? '';
     }
 
     protected function nineDigitNumbers($x): string
@@ -234,7 +235,7 @@ trait SarDataSetTrait
             '0' => 'ထောင့်',
         ];
 
-        return $nineDigitNumberWithOf[$x] ?? "";
+        return $nineDigitNumberWithOf[$x] ?? '';
     }
 
     protected function tenDigitNumber($x): string
@@ -251,7 +252,7 @@ trait SarDataSetTrait
             '0' => 'သောင်း',
         ];
 
-        return $tenDigitNumber[$x] ?? "";
+        return $tenDigitNumber[$x] ?? '';
     }
 
     protected function tenDigitNumbers($x): string
@@ -268,6 +269,6 @@ trait SarDataSetTrait
             '0' => 'သောင်း',
         ];
 
-        return $tenDigitNumberWithOf[$x] ?? "";
+        return $tenDigitNumberWithOf[$x] ?? '';
     }
 }

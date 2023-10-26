@@ -3,7 +3,7 @@
 [![Laravel 8.x](https://img.shields.io/badge/Laravel-8.x-red.svg?style=flat-square)](https://laravel.com/docs/8.x)
 [![Laravel 9.x](https://img.shields.io/badge/Laravel-9.x-red.svg?style=flat-square)](https://laravel.com/docs/9.x)
 [![PHP 8.x](https://img.shields.io/badge/php-%5E8.0-blue?style=flat-square)](https://www.php.net/releases/8.0/en.php)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/genie-fintech/laravel-dev-login/run-tests?label=tests&style=flat-square)](https://github.com/ageekdev/myanmar-currency/actions)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/ageekdev/myanmar-currency/run-tests.yml?label=tests&style=flat-square)](https://github.com/ageekdev/myanmar-currency/actions)
 
 ## Myanmar Sar Currency
 

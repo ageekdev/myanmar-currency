@@ -43,10 +43,12 @@ trait SarDataSetTrait
     {
         return $myanmarNumber[$x] ?? '';
     }
+
     public function oneDigitNumbers($x): string
     {
         return $myanmarNumber[$x] ?? '';
     }
+
     public function twoDigitNumber($x): string
     {
         $twoDigitNumber = [

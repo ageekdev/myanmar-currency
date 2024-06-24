@@ -2,10 +2,11 @@
 
 use function PHPUnit\Framework\assertEquals;
 
-it('can run eng digit to myanmar currency', function (string $engNumber, string $outputMyanmarNum) {
+it('can run eng digit to myanmar currency', closure: function (string $engNumber, string $outputMyanmarNum) {
     $response = $this->currency->convertMyanmarText($engNumber);
     assertEquals($outputMyanmarNum, $response);
 })->with([
+    ['1', 'တစ်'],
     ['10', 'တစ်ဆယ်'],
     ['100', 'တစ်ရာ'],
     ['1000', 'တစ်ထောင်'],

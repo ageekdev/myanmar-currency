@@ -17,6 +17,7 @@ trait SarDataSetTrait
     ];
 
     protected array $methodsNames = [
+        '1' => ['oneDigitNumber', 'oneDigitNumbers'],
         '2' => ['twoDigitNumber', 'twoDigitNumbers'],
         '3' => ['threeDigitNumber', 'threeDigitNumbers'],
         '4' => ['fourDigitNumber', 'fourDigitNumbers'],
@@ -38,6 +39,14 @@ trait SarDataSetTrait
         return $this->myanmarNumber[$index] ?? '';
     }
 
+    public function oneDigitNumber($x): string
+    {
+        return $myanmarNumber[$x] ?? '';
+    }
+    public function oneDigitNumbers($x): string
+    {
+        return $myanmarNumber[$x] ?? '';
+    }
     public function twoDigitNumber($x): string
     {
         $twoDigitNumber = [

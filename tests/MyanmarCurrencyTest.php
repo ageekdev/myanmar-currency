@@ -18,7 +18,7 @@ it('can run eng digit to myanmar currency', closure: function (string $engNumber
     ['1000000000', 'သိန်းတစ်သောင်း'],
 ]);
 
-it('throws exception number only', function () {
+it('throws exception number only', closure: function () {
     $this->currency->convertMyanmarText('-1000');
 })->throws(Exception::class);
 it('throws exception start with 0', function () {

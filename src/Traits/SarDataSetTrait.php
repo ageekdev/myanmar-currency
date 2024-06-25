@@ -41,11 +41,11 @@ trait SarDataSetTrait
 
     public function oneDigitNumber($x): string
     {
-        return $myanmarNumber[$x] ?? '';
+        return $this->myanmarNumber[$x] ?? '';
     }
     public function oneDigitNumbers($x): string
     {
-        return $myanmarNumber[$x] ?? '';
+        return $this->myanmarNumber[$x] ?? '';
     }
     public function twoDigitNumber($x): string
     {

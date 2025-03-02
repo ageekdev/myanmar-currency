@@ -1,7 +1,6 @@
 <h1 align="center">Myanmar Sar Currency</h1>
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/ageekdev/myanmar-currency.svg?style=flat-square)](https://packagist.org/packages/ageekdev/myanmar-currency)
-[![Laravel 9.x](https://img.shields.io/badge/Laravel-9.x-red.svg?style=flat-square)](https://laravel.com/docs/9.x)
 [![Laravel 10.x](https://img.shields.io/badge/Laravel-10.x-red.svg?style=flat-square)](https://laravel.com/docs/10.x)
 [![Laravel 11.x](https://img.shields.io/badge/Laravel-11.x-red.svg?style=flat-square)](https://laravel.com/docs/11.x)
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg?style=flat-square)](https://laravel.com/docs/12.x)

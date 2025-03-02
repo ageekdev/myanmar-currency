@@ -15,7 +15,7 @@ class MyanmarCurrencyServiceProvider extends PackageServiceProvider
     public function bootingPackage()
     {
         $this->app->singleton('myanmar-currency', function () {
-            return new MyanmarCurrency();
+            return new MyanmarCurrency;
         });
     }
 }

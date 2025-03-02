@@ -7,12 +7,12 @@ use AgeekDev\MyanmarCurrency\Traits\ValidationTraitException;
 
 class MyanmarCurrency
 {
-    use ValidationTraitException;
     use HelperTrait;
+    use ValidationTraitException;
 
     public function convertMyanmarText($number): int|string
     {
-        $this->checkValidationException($number); //check validation
+        $this->checkValidationException($number); // check validation
 
         $wordCount = strlen($number);
 

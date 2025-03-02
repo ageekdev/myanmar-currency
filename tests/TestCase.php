@@ -14,7 +14,7 @@ class TestCase extends Orchestra
     protected function setUp(): void
     {
         parent::setUp();
-        $this->currency = new MyanmarCurrency();
+        $this->currency = new MyanmarCurrency;
         Factory::guessFactoryNamesUsing(
             fn (string $modelName) => 'MyanmarCurrency\\MyanmarCurrency\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );

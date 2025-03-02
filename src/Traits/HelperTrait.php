@@ -8,7 +8,7 @@ trait HelperTrait
 
     protected string $completeSentence = '';
 
-    //compose myanmar currency word. eg "သိန်း,သောင်း,etc."
+    // compose myanmar currency word. eg "သိန်း,သောင်း,etc."
     public function myanmarCurrencyWord($x, $amountNumber, $wordCount)
     {
         $nextIndex = $x;

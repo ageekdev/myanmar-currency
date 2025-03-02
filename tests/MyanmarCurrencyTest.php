@@ -1,11 +1,10 @@
 <?php
 
-use function PHPUnit\Framework\assertEquals;
-
-it('can run eng digit to myanmar currency', function (string $engNumber, string $outputMyanmarNum) {
+it('can run eng digit to myanmar currency', closure: function (string $engNumber, string $outputMyanmarNum) {
     $response = $this->currency->convertMyanmarText($engNumber);
-    assertEquals($outputMyanmarNum, $response);
+    expect($response)->toEqual($outputMyanmarNum);
 })->with([
+    ['1', 'တစ်'],
     ['10', 'တစ်ဆယ်'],
     ['100', 'တစ်ရာ'],
     ['1000', 'တစ်ထောင်'],
@@ -17,9 +16,10 @@ it('can run eng digit to myanmar currency', function (string $engNumber, string 
     ['1000000000', 'သိန်းတစ်သောင်း'],
 ]);
 
-it('throws exception number only', function () {
+it('throws exception number only', closure: function () {
     $this->currency->convertMyanmarText('-1000');
 })->throws(Exception::class);
+
 it('throws exception start with 0', function () {
     $this->currency->convertMyanmarText('01000');
 })->throws(Exception::class);

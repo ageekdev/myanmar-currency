@@ -1,8 +1,10 @@
 <h1 align="center">Myanmar Sar Currency</h1>
 
-[![Laravel 8.x](https://img.shields.io/badge/Laravel-8.x-red.svg?style=flat-square)](https://laravel.com/docs/8.x)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/ageekdev/myanmar-currency.svg?style=flat-square)](https://packagist.org/packages/ageekdev/myanmar-currency)
 [![Laravel 9.x](https://img.shields.io/badge/Laravel-9.x-red.svg?style=flat-square)](https://laravel.com/docs/9.x)
-[![PHP 8.x](https://img.shields.io/badge/php-%5E8.0-blue?style=flat-square)](https://www.php.net/releases/8.0/en.php)
+[![Laravel 10.x](https://img.shields.io/badge/Laravel-10.x-red.svg?style=flat-square)](https://laravel.com/docs/10.x)
+[![Laravel 11.x](https://img.shields.io/badge/Laravel-11.x-red.svg?style=flat-square)](https://laravel.com/docs/11.x)
+[![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg?style=flat-square)](https://laravel.com/docs/12.x)
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/ageekdev/myanmar-currency/run-tests.yml?label=tests&style=flat-square)](https://github.com/ageekdev/myanmar-currency/actions)
 
 ## Myanmar Sar Currency
